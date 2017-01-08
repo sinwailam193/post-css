@@ -1,0 +1,31 @@
+{
+  "name": "post-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "start": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinwailam193/post-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinwailam193/post-css/issues"
+  },
+  "homepage": "https://github.com/sinwailam193/post-css#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "css-loader": "^0.26.1",
+    "postcss-loader": "^1.2.1",
+    "postcss-smart-import": "^0.6.6",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  }
+}
